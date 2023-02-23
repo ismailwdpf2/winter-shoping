@@ -1,0 +1,47 @@
+body{
+  background-color:ivory;
+}
+.navbar{
+    height: 80px;
+    background-color:rgb(244, 244, 143);
+   
+  }
+
+  .logo{
+    height: 60px;
+    width: 100px;
+    margin-right: 15px;
+    border: 2px solid blue;
+  }
+  .nav-link{
+    background-color:darkorange;
+    margin-left: 5px;
+    color: aliceblue;
+    border-radius: 10px;
+  }
+  #carouselExampleControls{
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border: 1px solid #45526e ;
+  }
+  .container{
+    margin-top: 40px;
+  }
+  .card img{
+    height: 200px;
+  }
+  .card{
+    border: 1px solid cornflowerblue;
+    height: 350px;
+    overflow:hidden;
+    box-shadow: 2px 3px 5px  #84857f;
+  }
+.card:hover{
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+}
+footer{
+  height: 200px;
+  background-color: #45526e
+}
